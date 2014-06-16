@@ -1,0 +1,161 @@
+.font-family {
+  font-family: 'Open Sans', sans-serif !important;
+}
+body {
+  .font-family;
+}
+h1,h2,h3,h4,h5 {.font-family;}
+
+
+.hiding {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+
+/*
+ * Full-page styles
+ */
+.section.table {margin-bottom: 0;}
+.section {
+  /* Centered texts in each section
+  * --------------------------------------- */
+
+  /* Style for our header texts
+	* --------------------------------------- */
+  h1{
+    font-size: 5em;
+    font-family: arial,helvetica;
+    margin:0;
+  }
+  .intro p{
+  }
+
+
+  /* Overwriting styles for control arrows for slides
+  * --------------------------------------- */
+  .controlArrow.prev {
+    left: 50px;
+  }
+  .controlArrow.next{
+    right: 50px;
+  }
+
+
+  /* Bottom menu
+  * --------------------------------------- */
+  #infoMenu li a {
+  }
+}
+
+.media-pad-intro #section0{
+//  background-image: url('/assets/images/hw_267813.jpg');
+  background-repeat: no-repeat;
+//  padding: 0% 10% 15% 0;
+  padding: 0% 0 0 0;
+  background-size: cover;
+  background-position: bottom center;
+
+  img {
+    margin: 0 auto;
+    text-align: center;
+    z-index: 0;
+  }
+
+  .welcome-text {
+    position: absolute;
+    top:40px;
+    width: 100%;
+    left: 0;
+    p {
+      z-index: 200;
+      width: 75%;
+      padding: 40px;
+      float: none;
+      margin: 0 auto;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.media-pad-intro #section5 {
+  img {margin: 0 auto;text-align: center;}
+}
+
+/*Notice */
+.header-wrap {margin-top: 15px;}
+.demo-bar {
+  position:fixed;
+  display:block;
+  width: 100%;
+  background: #333;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+
+  display: none;
+  background-color: rgba(219, 74, 55, 0.84);
+  top:0;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.demo-bar .content {
+  line-height: 1.6em;
+  color: #FFF;
+  font-size: small;
+  position: relative;
+  padding: 2px 60px 4px 60px;
+}
+
+.demo-bar .content a {color: #FFF;text-decoration: underline;}
+.demo-bar .content p {
+  margin-bottom: 0;
+}
+
+.demo-bar .content .close {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.demo-bar .content .close a {color: #333;}
+
