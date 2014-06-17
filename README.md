@@ -2,4 +2,4 @@
 
 Demo site using JQuery full-page.js. 
 
-[Demo](https://github.com/template-factory/full-page-js-demo)
+[Demo](http://template-factory.github.io/full-page-js-demo)
